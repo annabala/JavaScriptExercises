@@ -13,6 +13,8 @@
 const button = document.querySelector('.btn')
 const sidebar = document.querySelector('.sidebar')
 
+/*
+
 button.addEventListener('click', function() {
   if (sidebar.classList.contains('is-hidden')) {
     sidebar.classList.remove('is-hidden')
@@ -20,6 +22,10 @@ button.addEventListener('click', function() {
     sidebar.classList.add('is-hidden')
   }
 })
-//To make it shorter we can use "toggle" method
 
+*/
+//To make it shorter we can use "toggle" method
+button.addEventListener('click', function() {
+    sidebar.classList.toggle('is-hidden');
+})
 
