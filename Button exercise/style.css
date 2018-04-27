@@ -12,15 +12,24 @@ html {
 body {
   box-sizing: border-box;
 }
-
+.button-box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    left: 50%;
+    bottom: 50%;
+}
 .btn {
     display: inline-block;
-    font-size: 2rem;
-    padding: 0.75 rem 1 rem;
+    margin: 0 auto;
+    padding: 2rem;
     background-color: #d8431f;
+    font-size: 2rem;
+    text-align: center;
     color: #fbece8;
     text-transform: uppercase;
     text-decoration: none;
+    
 }
 .sidebar {
     width: 300px;
