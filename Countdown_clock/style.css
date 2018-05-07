@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%; 
+    background-color: #00e6dc;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 62.5%;
+    padding: 2rem;
+}
+
+main {
+    width: 60vw;
+    height: 60vh;
+    background-color: #b2f7f4;
+    -webkit-box-shadow: 1rem 1.5rem 2rem 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 1rem 1.5rem 2rem 0 rgba(0,0,0,0.3);
+    box-shadow: 1rem 1.5rem 2rem 0 rgba(0,0,0,0.3);
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+}
+
+.title-box {
+    display: inline-block;
+    margin: 1rem;
+    -webkit-box-shadow: 1.5rem 1rem 3rem 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 1.5rem 1rem 3rem 0 rgba(0,0,0,0.2);
+    box-shadow: 1.5rem 1rem 3rem 0 rgba(0,0,0,0.2);
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    color: #007de6;
+}
+
+.title-box h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.clockdiv {
+    text-align: center;
+    padding: 3rem;
+}
+
+.clockdiv_element {
+    display: inline-block;
+    padding: 1rem;
+    color: #009a93;
+}
+
+.clockdiv_item {
+    display: inline-block;
+    padding: 10px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.smalltext {
+    font-size: 2rem;
+}
