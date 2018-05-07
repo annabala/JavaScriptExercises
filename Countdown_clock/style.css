@@ -40,7 +40,7 @@ main {
 
 .title-box h1 {
     font-size: 4rem;
-    font-weight: lighter;
+    font-weight: 500;
     padding: 20px;
 }
 
@@ -52,14 +52,13 @@ main {
 .clockdiv_element {
     display: inline-block;
     padding: 1rem;
-    color: #009a93;
+    color: #00736e;
 }
 
 .clockdiv_item {
     display: inline-block;
     padding: 10px;
     font-size: 3rem;
-    font-weight: bolder;
 }
 
 .smalltext {
